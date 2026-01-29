@@ -1,0 +1,56 @@
+{
+  "name": "vue-to-refs",
+  "version": "1.0.0",
+  "description": "Vue 3 extended toRefs accepting refs of objects with replaceRef option",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "logo.svg",
+    "banner.svg",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composition-api",
+    "composable",
+    "vueuse",
+    "toRefs",
+    "refs",
+    "reactive",
+    "destructure",
+    "convert",
+    "object-ref",
+    "replaceRef"
+  ],
+  "author": "VueFrag",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuefrag/vue-to-refs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuefrag/vue-to-refs/issues"
+  },
+  "homepage": "https://github.com/vuefrag/vue-to-refs#readme",
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.4.0"
+  }
+}
